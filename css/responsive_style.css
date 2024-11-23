@@ -1,0 +1,17 @@
+/********************************************************/
+/*---> Adaptación para los Monitores <---*/
+@media screen and (min-width: 1366px) and (max-width: 1920px) {}
+
+/*---> Adaptación para las tablet <---*/
+@media screen and (min-width: 420px) and (max-width: 768px){
+	body{
+		display: none;
+	}
+}
+
+/*---> Adaptación para los celulares <---*/
+@media screen and (min-width: 360px) and (max-width: 411px) {
+	body{
+		display: none;
+	}
+}

@@ -1,0 +1,37 @@
+/*############################################ Import ############################################*/
+@import url('../../../css/includes/fronts.css');
+
+:root{
+    --color--00: #7db4ec96;
+    --color--01: #5B94CF;
+    --color--02: #ffffff;
+    --color--03: #282828;
+    --color--04: #323232;
+    --color--05: #000000;
+    --color--06: #cacacc;
+    --color--07: #273746;
+    --color--08: #3a6486;
+    --color--09: #FF0000;
+    --color--10: rgba(0, 0, 0, 0.692);
+    --color--11: rgba(58,100,134,.5);
+    --color--12: #868e96;
+    --color--13: rgba(134,142,150,.5);
+    --color--14: #6c757d;
+       
+    --dt-padding:  12px;
+	--dt-padding-s:  6px;
+	--dt-padding-xs: 2px;
+
+	--dt-border-radius:  3px;
+
+    --font-family--Titulo-GD: 'MerriweatherRegular'; 
+    --font-family--SubTitulo-GD: 'MontserratRegular';
+
+ 
+    --font-family--Title: 'PetronaBoldItalic'; /*-----> Sub titulo */
+    --font-family--Button: 'PetronaThin';
+
+    --font-family--Tb-Title: "PetronaBold";
+    --font-family--Tb-Text: "PetronaLight";
+    --font-family--Tb-Footer: "PetronaThinItalic";
+} 

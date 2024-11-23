@@ -1,0 +1,54 @@
+#section_button{
+    display: block;
+    border-bottom: 2px solid var(--color--03); 
+}
+
+#section_button a{
+    line-height: 57px;
+    padding: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+    color: var(--color--05);
+}
+
+.menu-btn{
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    border: 2px solid var(--color--01);
+    background-color: var(--color--01);
+}
+
+.menu-btn:hover{
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-color: var(--color--02);
+    transition: 1s;
+}
+
+.menu-btn span{
+    padding-right: 5px;
+    font-family: var(--font-family--Button);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.menu-btn i{
+    font-size: 18px;
+}
+
+.menu-btn span:hover,
+.menu-btn i:hover{
+    color: var(--color--02);
+    text-shadow: 6spx 0px 10px var(--color--03);
+    transition: 1s;
+}
+
+.btnadmin, .btnlicen{
+    font-family: var(--font-family--Button);
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: var(--color--02);
+}

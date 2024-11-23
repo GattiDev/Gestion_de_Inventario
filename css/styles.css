@@ -1,0 +1,101 @@
+/*############################################ Import ############################################*/
+@import url('includes/main.css');
+/* Botínes */
+@import url("button.css");
+/* Modal */
+@import url("modal.css");
+@import url("modal_second.css");
+/* Table */
+@import url("tb.css");
+/* Process Bar */
+@import url("process_bar.css");
+
+/* Responsive */
+@import url("responsive_style.css");
+
+/*Garfico*/
+#boxGraph{
+    display: block;
+    width: 750px;
+    margin: auto;
+	padding: 10px;    
+}
+
+.graph_line select{
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    box-shadow: 4px 4px 6px 0px var(--color--00);
+}
+
+.graph_line .btnGrafic{
+    display: block;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+}
+
+.graph_line .btnGrafic input{
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    border-color: transparent;
+    font-weight: bold;
+	letter-spacing: 2px;
+    transition: all 0.35s ease;
+}
+
+.graph_line .btnGrafic input:hover{
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 4px 4px 6px 0px var(--color--00);
+}
+
+
+#main_content h2 {
+    display: block;
+    width: auto;
+    width: 55%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-family: var(--font-family--Title);
+    background-color: var(--color--03); 
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: var(--color--02);
+    text-shadow: 3px 0px 9px var(--color--04);
+    border-left: 4px solid var(--color--01);
+    border-bottom: 4px solid var(--color--01);
+    box-shadow: 0px 2px 0px var(--color--00), 0px 2px 0px var(--color--00) , 0px 1px 0px var(--color--00), 0px 3px 0px var(--color--00);
+    margin: 0px auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h2{
+    width: auto;
+    height: auto;
+}
+
+#year {
+    font-family: var(--font-family--Title);
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    letter-spacing: 20px;
+
+}
+
+@media screen and (min-width: 800px){
+    #main_content h2 {
+       
+        font-size: 28px;
+        
+    }
+}

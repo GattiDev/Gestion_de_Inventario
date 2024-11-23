@@ -1,0 +1,42 @@
+#head_content span{
+    float: left;
+    width: 350px;
+    line-height: 18px;
+}
+
+#logobox img{
+    height: 100%;
+    width: 100%;
+}
+
+#head_content address{
+    float: right;
+    line-height: 52px;
+    margin-right: 30px;
+    color: var(--color--03);
+}
+
+.datebox{
+    font-family: var(--font-family--SubTitulo-GD);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.fecha p{
+	display: inline-block;
+}
+
+.fecha,.reloj {
+	width: 100%;
+}
+
+.reloj p {
+    display: inline-block;
+	text-align: center;
+}
+
+.reloj .caja-segundos {
+	display: inline-block;
+}

@@ -1,0 +1,57 @@
+/*############################################ Import ############################################*/
+@import url('setting_style.css');
+@import url('head_style.css');
+@import url('footer_style.css');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    background-color: var(--color--07);
+}
+
+html, body{
+    margin: auto;
+    width: 100%; 
+    min-width: 600px;
+    max-width: 1910px;
+	zoom: 100%;
+}
+
+/*====== CONTENT ======*/
+#content{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+}
+
+/*====== HEAD CONTENT ======*/
+#head_content {
+    width: 100%;
+    height: 105px;
+    background-color: var(--color--02);
+    border-bottom: 2px solid var(--color--03);    
+}
+
+/*====== MAIN CONTENT ======*/
+#main_content{
+    width: 100%;
+    height: auto;
+}
+
+/*====== FOOTER CONTENT ======*/
+#footer_content{
+    width: 100%;
+    height: 35px;
+    color: var(--color--04);
+    background-color: var(--color--10);
+    border-top: 2px solid var(--color--05);
+    border-bottom: 2px solid var(--color--05);
+}

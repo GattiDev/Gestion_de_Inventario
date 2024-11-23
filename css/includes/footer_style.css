@@ -1,0 +1,38 @@
+#footer_content h6{
+    float: left;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-bottom: 5px;
+}
+
+.copybox{
+    display: block;
+    width: 660px;
+    font-family: var(--font-family--Titulo-GD);
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#footer_content p{
+    float: right; 
+    padding-top: 10px;
+    padding-bottom: 5px; 
+}
+
+.devbox{
+    display: block;
+    width: 410px;
+    font-family: var(--font-family--Titulo-GD);
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.devbox a{
+    text-decoration: none; 
+    color: var(--color--04);
+}
+
+.devbox a:hover{
+    color: var(--color--01);
+    transition: 1s;
+}

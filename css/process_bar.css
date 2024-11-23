@@ -1,0 +1,147 @@
+.dt_data{
+    padding-bottom: 10px;
+}
+.container-progress{
+    width: 850px;
+    margin: auto;
+}
+
+.lead{
+    font-family: var(--font-family--Title);
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.form-group{
+    display: block;
+    text-align: center; 
+    padding-top: 10px;
+}
+
+.form-group .btnUpdate{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: var(--font-family--Button);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: var(--color--01);
+    background-color: var(--color--10);
+    transition: all 0.45s ease;
+}
+
+.form-group .btnUpdate:hover{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: var(--color--11);
+}
+
+progress {
+    vertical-align: baseline
+}
+
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 25px;
+    overflow: hidden;
+    border-radius: .25rem
+}
+
+.progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: var(--color--02);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    background-color: var(--color--00);
+    transition: width .6s ease;
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .progress-bar {
+        transition: none
+    }
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient(45deg, var(--color--10) 25%, transparent 25%, transparent 50%, var(--color--10) 50%, var(--color--10) 75%, transparent 75%, transparent);
+    background-size: 1rem 1rem
+}
+
+
+.counter-sending{
+    display: block;
+    font-family: var(--font-family--Title);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.execute-time-content{
+    position: absolute;
+    font-family: var(--font-family--Title);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    top: 250px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.end-process{
+    display: block;
+    font-family: var(--font-family--Tb-Text);
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: var(--dt-status-sold-color);
+    text-shadow:F0 1px 0px 6px var(--color--06);
+    background-color: var(--color--10);
+}
+
+.end-process .btnContinuar{
+    text-decoration: none;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: var(--color--01);
+    background-color: var(--color--10);
+    transition: all 0.45s ease;
+}
+
+.end-process .btnContinuar:hover{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: var(--color--11);
+}
